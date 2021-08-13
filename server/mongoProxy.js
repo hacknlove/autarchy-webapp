@@ -1,6 +1,6 @@
 import { MongoClient } from 'mongodb';
 
-const mongoURL = process.env.MONGO_URL;
+const mongoURL = process.env.MONGO_URL || 'mongodb://localhost:27017/autharchy';
 let res;
 const mongo = {};
 
@@ -28,6 +28,8 @@ async function mongoConnect() {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   }).catch((err) => ({ err }));
+
+  console.log(client)
 
   if (client.err) {
     if (maxTries--) {
