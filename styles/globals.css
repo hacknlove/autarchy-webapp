@@ -1,0 +1,6 @@
+.clickable {
+  cursor: pointer;
+}
+tr.clickable:hover > td {
+  background-color: lightslategray;
+}
