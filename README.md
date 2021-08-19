@@ -1,11 +1,11 @@
 
-# autharchy-webapp
+# autarchy-webapp
 
 ## Install
 
 ```
-git clone https://github.com/hacknlove/autharchy-webapp.git
-cd autharchy-webapp
+git clone https://github.com/hacknlove/autarchy-webapp.git
+cd autarchy-webapp
 npm i
 npm run build
 ```
@@ -16,7 +16,7 @@ npm run build
 npm start
 ```
 
-It uses the environmental variable `MONGO_URL` which defaults to `mongodb://localhost:27017/autharchy` 
+It uses the environmental variable `MONGO_URL` which defaults to `mongodb://localhost:27017/autarchy` 
 
 ## WIP
 

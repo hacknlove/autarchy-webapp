@@ -1,6 +1,6 @@
 import { MongoClient } from 'mongodb';
 
-const mongoURL = process.env.MONGO_URL || 'mongodb://localhost:27017/autharchy';
+const mongoURL = process.env.MONGO_URL || 'mongodb://localhost:27017/autarchy';
 let res;
 const mongo = {};
 
